@@ -4,32 +4,29 @@ import React from 'react';
 function Nav() {
     return (
         <header>
-            <nav>
+            <nav className='container flex flex-col items-center gap-4 py-8'>
                 <div>
                     <span>CRYSTAL</span>
                     <span>HAVEN</span>
                 </div>
-                <div>
-                    <ul>
+                <div className='flex gap-x-8'>
                         <Link href="/">
-                        <a>Home</a>
+                        <a>HOME</a>
                         </Link>
                         <Link href="/">
-                        <a>Artists</a>
+                        <a>ARTISTS</a>
                         </Link>
                         <Link href="/">
-                        <a>Releases</a>
+                        <a>RELEASES</a>
                         </Link>
                         <Link href="/">
-                        <a>Our label</a>
+                        <a>OUR LABEL</a>
                         </Link>
                         <Link href="/">
-                        <a>About</a>
-                        </Link>
-                    </ul>
+                        <a>ABOUT</a>
+                        </Link>      
                 </div>
             </nav>
-            
         </header>
     );
 }

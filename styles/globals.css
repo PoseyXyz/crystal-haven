@@ -19,3 +19,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.4);
+}

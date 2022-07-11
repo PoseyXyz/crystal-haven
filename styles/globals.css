@@ -50,7 +50,6 @@ a {
 .center-text{
   line-height: calc(1.4rem + 0.6vw);
   font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 300))) !important;
-
 }
 
 .center-text:after,
@@ -60,6 +59,7 @@ a {
     color: #fff;
     margin: 0 1rem;
 }
+
 
 
 

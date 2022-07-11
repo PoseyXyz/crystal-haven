@@ -102,7 +102,7 @@ function Artists() {
             <div className='grid grid-cols-4 gap-4 mt-24'>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/services/one.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artists-portraits/portrait1.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
                         <p className='center-text-alt'>Name</p>
@@ -111,7 +111,7 @@ function Artists() {
                 </div>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/services/three.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artists-portraits/portrait2.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
                         <p className='center-text-alt'>Name</p>
@@ -120,7 +120,7 @@ function Artists() {
                 </div>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/services/two.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artists-portraits/portrait3.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
                         <p className='center-text-alt'>Name</p>
@@ -129,7 +129,7 @@ function Artists() {
                 </div>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/services/three.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artists-portraits/portrait4.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
                         <p className='center-text-alt'>Name</p>

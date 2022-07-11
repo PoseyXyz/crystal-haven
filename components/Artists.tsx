@@ -4,7 +4,7 @@ import React from 'react';
 
 function Artists() {
     return (
-     
+
 
         <section className='py-24'>
             <div className='container flex flex-col gap-20 lg:gap-24'>
@@ -13,15 +13,16 @@ function Artists() {
                         A Boundless Studio Experience
                     </span> */}
                     <span className='heading inline-block font-medium max-w-[800px]'>
-                        A Boundless Studio Experience
+                        Artists
                     </span>
                     <span className='oval'>
                         <Link href='/'>
-                            <a>Read More</a>
+                            <a>View Artists</a>
                         </Link>
                     </span>
                 </div>
-                <div className='flex flex-col gap-20 lg:gap-24'>
+            </div>
+            {/* <div className='flex flex-col gap-20 lg:gap-24'>
                     <div className='flex justify-center'>
                         <p className='text-center max-w-4xl text-gray-500 center-text'>Tune out from the noise and into your creative potential. Our studio provides the perfect atmosphere for inspiration, along with all the gear you’ll need for effortless recordings. With state-of-the-art equipment at-hand, you can focus on making your project incredible.</p>
                     </div>
@@ -92,38 +93,50 @@ function Artists() {
                             <div className='bg-black text-white p-4 text-lg text-center w-3/4 self-center absolute -bottom-8'>
                                 <span>AUDIO MIXING</span>
                             </div>
-                        </div> */}
+                        </div> 
 
                     </div>
                 </div>
-            </div>
-            {/* <div className='grid grid-cols-4 gap-4 mt-24'>
-                        <div className='bg-blue-400 flex flex-col relative'>
-                            <div className='relative w-full h-[600px] rounded-xl'>
-                            <Image src="/services/one.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                            </div>
-                            
-                        </div>
-                        <div className='bg-blue-400 flex flex-col relative'>
-                            <div className='relative w-full h-[600px] rounded-xl'>
-                            <Image src="/services/three.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                            </div>
-                           
-                        </div>
-                        <div className='bg-blue-400 flex flex-col relative'>
-                            <div className='relative w-full h-[600px] rounded-xl'>
-                            <Image src="/services/two.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                            </div>
-                           
-                        </div>
-                        <div className='bg-blue-400 flex flex-col relative'>
-                            <div className='relative w-full h-[600px] rounded-xl'>
-                            <Image src="/services/three.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                            </div>
-                            
-                        </div>
-                    </div> */}
+            </div> */}
 
+            <div className='grid grid-cols-4 gap-4 mt-24'>
+                <div className='flex flex-col relative'>
+                    <div className='relative w-full h-[600px] rounded-xl'>
+                        <Image src="/services/one.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                    </div>
+                    <div>
+                        <p className='center-text-alt'>Name</p>
+                        <span className='text-gray-500'>Role</span>
+                    </div>
+                </div>
+                <div className='flex flex-col relative'>
+                    <div className='relative w-full h-[600px] rounded-xl'>
+                        <Image src="/services/three.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                    </div>
+                    <div>
+                        <p className='center-text-alt'>Name</p>
+                        <span className='text-gray-500'>Role</span>
+                    </div>
+                </div>
+                <div className='flex flex-col relative'>
+                    <div className='relative w-full h-[600px] rounded-xl'>
+                        <Image src="/services/two.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                    </div>
+                    <div>
+                        <p className='center-text-alt'>Name</p>
+                        <span className='text-gray-500'>Role</span>
+                    </div>
+                </div>
+                <div className='flex flex-col relative'>
+                    <div className='relative w-full h-[600px] rounded-xl'>
+                        <Image src="/services/three.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                    </div>
+                    <div>
+                        <p className='center-text-alt'>Name</p>
+                        <span className='text-gray-500'>Role</span>
+                    </div>
+                </div>
+            </div>
         </section>
     );
 }

@@ -10,13 +10,13 @@ function Banner() {
                         <h5 className='text-3xl font-medium tracking-widest'>
                         {`THE MIDWEST'S PREMIER`} 
                         </h5>
-                        <h4 className='text-7xl font-bold tracking-wide mt-4'>
-                        Residential <br></br> Recording Group
+                        <h4 className='text-6xl font-bold tracking-wide mt-4'>
+                        Residential <br></br> Audio-Visual Group
                         </h4>
                     </div>
                 </div>
         <div className='relative w-full h-[780px]'>
-        <Image src="/home/banner.jpg" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+        <Image src="/home/banner.jpg" alt="Vercel Logo" layout="fill" priority objectFit='cover' objectPosition='start' />
         </div>
             </div>
         </section>

@@ -46,3 +46,25 @@ a {
   line-height: calc(1.4rem + 3.6vw); 
   font-size: calc(30px + (70 - 30) * ((100vw - 300px) / (1920 - 300))) !important;
 }
+
+.center-text{
+  line-height: calc(1.4rem + 0.6vw);
+  font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1920 - 300))) !important;
+
+}
+
+.center-text:after,
+.center-text:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+
+
+
+
+
+ 
+  

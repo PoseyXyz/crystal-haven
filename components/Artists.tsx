@@ -100,40 +100,40 @@ function Artists() {
             </div> */}
 
             <div className='grid grid-cols-4 gap-4 mt-24'>
-                <div className='flex flex-col relative'>
+                <div className='flex flex-col gap-4 relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artists-portraits/portrait1.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artist-portraits/portrait1.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
-                        <p className='center-text-alt'>Name</p>
-                        <span className='text-gray-500'>Role</span>
+                        <p className='center-text-alt'>Ed Sheeran</p>
+                        <span className='text-gray-500'>Pop</span>
                     </div>
                 </div>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artists-portraits/portrait2.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artist-portraits/portrait2.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
-                        <p className='center-text-alt'>Name</p>
-                        <span className='text-gray-500'>Role</span>
+                        <p className='center-text-alt'>Charli XCX</p>
+                        <span className='text-gray-500'>Pop</span>
                     </div>
                 </div>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artists-portraits/portrait3.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artist-portraits/portrait3.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
-                        <p className='center-text-alt'>Name</p>
-                        <span className='text-gray-500'>Role</span>
+                        <p className='center-text-alt'>Hayley Kiyoko</p>
+                        <span className='text-gray-500'>Pop</span>
                     </div>
                 </div>
                 <div className='flex flex-col relative'>
                     <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artists-portraits/portrait4.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                        <Image src="/artist-portraits/portrait4.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                     </div>
                     <div>
-                        <p className='center-text-alt'>Name</p>
-                        <span className='text-gray-500'>Role</span>
+                        <p className='center-text-alt'>SK8</p>
+                        <span className='text-gray-500'>Hip Hop</span>
                     </div>
                 </div>
             </div>

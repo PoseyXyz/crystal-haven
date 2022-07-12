@@ -30,7 +30,7 @@ a {
 }
 
 .oval{
-  width: 160px;
+  width: 170px;
   height: 75px;
   border:1px solid #fff;
   padding: 2rem;
@@ -61,10 +61,10 @@ a {
 }
 
 
-
-
-
-
+.playlist-name{
+  line-height: calc(1.4rem + 1.2vw);
+  font-size: calc(20px + (42 - 20) * ((100vw - 300px) / (1920 - 300))) !important;
+}
 
  
   

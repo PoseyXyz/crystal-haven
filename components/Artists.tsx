@@ -140,7 +140,7 @@ function Artists() {
                         const { id, name, imageUri, role } = artist
                         return (
                             <div key={id} className='flex flex-col gap-4 relative'>
-                                <div className={`${id%2===0?'lg:mt-12':'lg:mt-0'} relative w-full h-screen lg:h-[600px] rounded-xl`}>
+                                <div className={`${id%2===0?'lg:mt-12':'lg:mt-0'} relative w-full h-screen lg:h-[600px]`}>
                                     <Image src={imageUri} alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
                                 </div>
                                 <div>

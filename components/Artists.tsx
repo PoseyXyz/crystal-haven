@@ -14,26 +14,26 @@ function Artists() {
         [
             {
                 id: 1,
-                name: 'Bob Sheeran',
-                role: "Pop",
+                name: 'Bode Afolabi',
+                role: "Role",
                 imageUri: "/artist-portraits/portrait1.webp"
             },
             {
                 id: 2,
                 name: 'Charli XCX',
-                role: "Pop",
+                role: "Role",
                 imageUri: "/artist-portraits/portrait2.webp"
             },
             {
                 id: 3,
                 name: 'Hayley Kiyoko',
-                role: "Pop",
+                role: "Role",
                 imageUri: "/artist-portraits/portrait3.webp"
             },
             {
                 id: 4,
                 name: 'SK8',
-                role: "Hip Hop",
+                role: "Role",
                 imageUri: "/artist-portraits/portrait4.webp"
             },
         ]

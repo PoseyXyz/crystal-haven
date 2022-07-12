@@ -9,19 +9,19 @@ function Playlists() {
         [
             {
                 id:1,
-                name:'The Hottest Hip Hop and R&B!',
+                name:'First Playlist Name',
                 description:"Aliquip dolore et exercitation non labore id duis quis ullamco reprehenderit. Consectetur in officia aliqua dolore irure magna sit. Duis ullamco eu excepteur fugiat esse. Enim nisi enim labore officia.",
                 coverImgUri:"/playlist-covers/cover1.webp"
             },
             {
                 id:2,
-                name:'Songs I Heard On Tik Tok',
+                name:'Second Playlist Name',
                 description:"Aliquip dolore et exercitation non labore id duis quis ullamco reprehenderit. Consectetur in officia aliqua dolore irure magna sit. Duis ullamco eu excepteur fugiat esse. Enim nisi enim labore officia.",
                 coverImgUri:"/playlist-covers/cover2.webp"
             },
             {
                 id:3,
-                name:'Crystal Holiday',
+                name:'Third Playlist Name',
                 description:"Aliquip dolore et exercitation non labore id duis quis ullamco reprehenderit. Consectetur in officia aliqua dolore irure magna sit. Duis ullamco eu excepteur fugiat esse. Enim nisi enim labore officia.",
                 coverImgUri:"/playlist-covers/cover3.webp"
             },

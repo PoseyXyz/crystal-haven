@@ -17,19 +17,19 @@ function Playlists() {
                 id:2,
                 name:'Songs I Heard On Tik Tok',
                 description:"Aliquip dolore et exercitation non labore id duis quis ullamco reprehenderit. Consectetur in officia aliqua dolore irure magna sit. Duis ullamco eu excepteur fugiat esse. Enim nisi enim labore officia.",
-                coverImgUri:"/playlist-covers/cover1.webp"
+                coverImgUri:"/playlist-covers/cover2.webp"
             },
             {
                 id:3,
                 name:'Crystal Holiday',
                 description:"Aliquip dolore et exercitation non labore id duis quis ullamco reprehenderit. Consectetur in officia aliqua dolore irure magna sit. Duis ullamco eu excepteur fugiat esse. Enim nisi enim labore officia.",
-                coverImgUri:"/playlist-covers/cover1.webp"
+                coverImgUri:"/playlist-covers/cover3.webp"
             },
             {
                 id:4,
                 name:'Hymns',
                 description:"Aliquip dolore et exercitation non labore id duis quis ullamco reprehenderit. Consectetur in officia aliqua dolore irure magna sit. Duis ullamco eu excepteur fugiat esse. Enim nisi enim labore officia.",
-                coverImgUri:"/playlist-covers/cover1.webp"
+                coverImgUri:"/playlist-covers/cover4.webp"
             },
 
 

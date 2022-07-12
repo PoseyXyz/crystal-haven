@@ -1,8 +1,43 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
+
+export interface Artist {
+    id: number,
+    name: string,
+    role: string,
+    imageUri: string
+}
 
 function Artists() {
+    const [artists, setArtists] = useState<Artist[]>(
+        [
+            {
+                id: 1,
+                name: 'Bob Sheeran',
+                role: "Pop",
+                imageUri: "/artist-portraits/portrait1.webp"
+            },
+            {
+                id: 2,
+                name: 'Charli XCX',
+                role: "Pop",
+                imageUri: "/artist-portraits/portrait2.webp"
+            },
+            {
+                id: 3,
+                name: 'Hayley Kiyoko',
+                role: "Pop",
+                imageUri: "/artist-portraits/portrait3.webp"
+            },
+            {
+                id: 4,
+                name: 'SK8',
+                role: "Hip Hop",
+                imageUri: "/artist-portraits/portrait4.webp"
+            },
+        ]
+    )
     return (
 
 
@@ -99,43 +134,23 @@ function Artists() {
                 </div>
             </div> */}
 
-            <div className='grid grid-cols-4 gap-4 mt-24'>
-                <div className='flex flex-col gap-4 relative'>
-                    <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artist-portraits/portrait1.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                    </div>
-                    <div>
-                        <p className='center-text-alt'>Ed Sheeran</p>
-                        <span className='text-gray-500'>Pop</span>
-                    </div>
-                </div>
-                <div className='flex flex-col relative'>
-                    <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artist-portraits/portrait2.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                    </div>
-                    <div>
-                        <p className='center-text-alt'>Charli XCX</p>
-                        <span className='text-gray-500'>Pop</span>
-                    </div>
-                </div>
-                <div className='flex flex-col relative'>
-                    <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artist-portraits/portrait3.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                    </div>
-                    <div>
-                        <p className='center-text-alt'>Hayley Kiyoko</p>
-                        <span className='text-gray-500'>Pop</span>
-                    </div>
-                </div>
-                <div className='flex flex-col relative'>
-                    <div className='relative w-full h-[600px] rounded-xl'>
-                        <Image src="/artist-portraits/portrait4.webp" alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
-                    </div>
-                    <div>
-                        <p className='center-text-alt'>SK8</p>
-                        <span className='text-gray-500'>Hip Hop</span>
-                    </div>
-                </div>
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 mt-24'>
+                {
+                    artists.map(artist => {
+                        const { id, name, imageUri, role } = artist
+                        return (
+                            <div key={id} className='flex flex-col gap-4 relative'>
+                                <div className={`${id%2===0?'lg:mt-12':'lg:mt-0'} relative w-full h-screen lg:h-[600px] rounded-xl`}>
+                                    <Image src={imageUri} alt="Vercel Logo" layout="fill" objectFit='cover' objectPosition='start' />
+                                </div>
+                                <div>
+                                    <p className='center-text-alt'>{name}</p>
+                                    <span className='text-gray-500'>{role}</span>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
             </div>
         </section>
     );
